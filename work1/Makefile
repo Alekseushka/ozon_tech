@@ -9,7 +9,7 @@ PACKAGE=github.com/Alekseushka/ozon_tech/work1/cmd/bot
 
 all: build test lint
 
-build: bindir
+build: bindir 
 	go build -o ${BINDIR}/bot ${PACKAGE}
 
 test:

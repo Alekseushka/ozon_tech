@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-const configFile = "data/config.yaml"
+const configFile = "/home/flonsay/workspace_go/tech/ozon_tech/work1/data/config.yaml"
 
 type Config struct {
 	Token string `yaml:"token"`
